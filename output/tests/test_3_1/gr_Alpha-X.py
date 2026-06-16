@@ -14,6 +14,7 @@ a_exp = data[:, 1]
 txt.plot(X, Th, '-',  markersize=1,  label='Theoretical')
 txt.plot(X, Num, 'o',  markersize=1,  label='Numerical (smooth film)')
 txt.plot(X, Corr, 'o',  markersize=1,  label='Numerical(wavy film)')
+txt.legend(loc='best', markerscale=3)
 txt.plot(x_exp, a_exp, 'D',  markersize=2,  label='Experiment')
 txt.legend(loc='best', markerscale=3)
 txt.xlabel('X,m')
